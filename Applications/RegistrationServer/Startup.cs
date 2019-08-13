@@ -8,6 +8,8 @@ using Projects;
 using Steeltoe.CloudFoundry.Connector.MySql.EFCore;
 using Users;
 using Pivotal.Discovery.Client;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Authorization;
 namespace RegistrationServer
 {
     public class Startup
